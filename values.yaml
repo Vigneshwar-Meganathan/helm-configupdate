@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: venkatesan06/my-app
+  tag: "2.0"
+service:
+  type: LoadBalancer
+  port: 8080
+
+run: java
+ 
